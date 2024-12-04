@@ -1,0 +1,4 @@
+dealer_up,current_hand,action,current_hand_value
+10,"[8, 4]",H,12
+10,"[8, 4, 4]",H,16
+10,"[8, 4, 4, 4]",S,20
