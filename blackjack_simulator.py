@@ -313,7 +313,7 @@ def main():
     parser.add_argument('--output_path', help='Path to save CSV results', default='blackjack_simulator.csv')
     parser.add_argument('--log_path', help='Path to log file', default='blackjack_simulator.log')
     parser.add_argument('--log_level', help='Level of messages to write to log file', default='info')
-    parser.add_argument('--hands', help='Number of hands to play', default=1000)
+    parser.add_argument('--hands', help='Number of hands to play', default=10000)
     parser.add_argument('--decks', help='Number of decks to use in a shoe', default=8)
     parser.add_argument('--pen', help='Deck penetration (number of decks played before shuffling)', default=6.5)
 
